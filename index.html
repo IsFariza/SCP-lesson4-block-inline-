@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Block vs Inline</title>
+  <style>
+    div {
+      background-color: lightblue;
+      margin-bottom: 10px;
+    }
+    span {
+      background-color: lightgreen;
+    }
+    a {
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <h1>Блочные элементы</h1>
+  <div>Это DIV (занимает всю ширину)</div>
+  <p>Это P (тоже блочный элемент)</p>
+  <h3>Это H3 (одзаголвок)</h3>
+  <h1>Строчные элементы</h1>
+  <p>
+    Это обычный текст, а внутри него 
+    <span>SPAN</span> и 
+    <a href="#">ссылка</a> — оба встроены прямо в строку.
+  </p>
+  <p>
+    Вот картинка <img src="/cat.png" alt="Котик" width="100px" > тоже строчный элемент.
+  </p>
+</body>
+</html>
